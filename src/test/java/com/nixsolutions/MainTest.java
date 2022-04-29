@@ -10,4 +10,9 @@ public class MainTest {
         Assert.assertEquals(8, Main.add(3, 5));
     }
 
+    @Test
+    public void testSubtract() {
+        Assert.assertEquals(10, Main.subtract(20, 10));
+    }
+
 }
