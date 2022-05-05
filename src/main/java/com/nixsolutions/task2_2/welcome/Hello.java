@@ -1,4 +1,4 @@
-package com.nixsolutions.task2_1.welcome;
+package com.nixsolutions.task2_2.welcome;
 
 public class Hello {
 

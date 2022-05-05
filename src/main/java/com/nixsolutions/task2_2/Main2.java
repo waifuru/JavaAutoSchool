@@ -1,6 +1,6 @@
-package com.nixsolutions.task2_1;
+package com.nixsolutions.task2_2;
 
-import com.nixsolutions.task2_1.welcome.Hello;
+import com.nixsolutions.task2_2.welcome.Hello;
 
 import java.util.Scanner;
 

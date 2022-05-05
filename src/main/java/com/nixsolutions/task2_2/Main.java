@@ -1,4 +1,4 @@
-package com.nixsolutions.task2_1;
+package com.nixsolutions.task2_2;
 
 import java.util.Scanner;
 
