@@ -11,7 +11,8 @@ public class Main {
     }
 
     public static void printHelloName(String name) {
-        System.out.println("Hello, " + name + "!");
+        String string = String.format("Hello, %s!", name);
+        System.out.println(string);
     }
 
 }

@@ -9,11 +9,13 @@ public class Hello {
     }
 
     public static void welcome() {
-        System.out.println("Hello, " + name + "!");
+        String string = String.format("Hello, %s!", name);
+        System.out.println(string);
     }
 
     public static void byeBye(){
-        System.out.println("Bye, " + name);
+        String string = String.format("Bye, %s", name);
+        System.out.println(string);
     }
 
 }

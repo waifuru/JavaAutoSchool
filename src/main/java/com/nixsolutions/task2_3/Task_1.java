@@ -18,6 +18,9 @@ public class Task_1 {
     public static void task_1(int q1, int w1){
         int div = q1 / w1;
         int residue = q1 % w1;
+        System.out.printf("Результат: %d\n", div);
+        System.out.printf("Остаток: %d\n", residue);
+
         System.out.println("Результат: " + div);
         System.out.println("Остаток: " + residue);
     }

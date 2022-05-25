@@ -8,7 +8,6 @@ public class Task_3 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите число: ");
         String n = in.nextLine();
-        double n1 = Double.parseDouble(n);
         task_3(n);
     }
 
