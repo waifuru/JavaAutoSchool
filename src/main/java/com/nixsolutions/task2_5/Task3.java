@@ -26,9 +26,7 @@ public class Task3 {
         System.out.println("Вычисляем длину каждой строки...");
 
         for (int i = 0; i < integers.length; i++){
-            String str = list[i];
-            int str_length = str.length();
-            integers[i] = str_length;
+            integers[i] = list[i].length();
         }
 
         for (int i = 0; i < integers.length; i++){

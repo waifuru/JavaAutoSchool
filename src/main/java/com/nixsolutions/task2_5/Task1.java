@@ -10,9 +10,9 @@ public class Task1 {
     }
 
     public static void initializeArray() throws IOException {
-        System.out.println("Введите массив из 10 чисел: ");
+        System.out.println("Введите массив из 20 чисел: ");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int[] list = new int[10];
+        int[] list = new int[20];
         for (int i = 0; i < list.length; i++) {
             String s = reader.readLine();
             if (!s.isEmpty()){

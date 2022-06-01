@@ -13,18 +13,18 @@ public class Task4 {
         System.out.println("Введите массив из 10 чисел: ");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int[] list = new int[10];
-        for (int i = 0; i < list.length; i++) {
+        for (int i = list.length-1; i >= 0; i--) {
             String s = reader.readLine();
             if (!s.isEmpty()) {
                 list[i] = Integer.parseInt(s);
             } else {
-                i--;
+                i++;
             }
         }
 
         System.out.println("Переворачиваем массив чисел...");
 
-        for (int i = list.length - 1; i >= 0; i--) {
+        for (int i = 0; i < list.length; i++) {
             System.out.println(list[i]);
         }
     }
