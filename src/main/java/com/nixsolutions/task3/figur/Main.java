@@ -17,27 +17,25 @@ public class Main {
     }
 
     public static Figure getRandomFigure() {
-        Figure figure;
         Random random = new Random();
         int randomFigure = random.nextInt(30);
         if (randomFigure < 10) {
             Circle circle = new Circle();
             circle.setCenter(new Coordinate(random.nextInt(), random.nextInt()));
             circle.setRadius(random.nextDouble());
-            figure = circle;
+            return circle;
         } else if (randomFigure < 20){
             Triangle triangle = new Triangle();
             triangle.setCenter(new Coordinate(random.nextInt(), random.nextInt()));
             triangle.setSideA(random.nextDouble());
             triangle.setSideB(random.nextDouble());
             triangle.setSideC(random.nextDouble());
-            figure = triangle;
+            return triangle;
         } else {
             Square square = new Square();
             square.setCenter(new Coordinate(random.nextInt(), random.nextInt()));
             square.setSide(random.nextDouble());
-            figure = square;
+            return square;
         }
-        return figure;
     }
 }

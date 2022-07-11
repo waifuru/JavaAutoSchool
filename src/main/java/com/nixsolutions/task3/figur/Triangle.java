@@ -1,47 +1,31 @@
 package com.nixsolutions.task3.figur;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class Triangle extends Figure {
+
+    @Setter
     private String name = "Треугольник";
+
+    @Setter
     private Coordinate center = new Coordinate(0, 0);
+
+    @Getter
+    @Setter
     private double sideA;
+
+    @Getter
+    @Setter
     private double sideB;
+
+    @Getter
+    @Setter
     private double sideC;
 
     @Override
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setCenter(Coordinate center) {
-        this.center = center;
-    }
-
-    public double getSideA() {
-        return sideA;
-    }
-
-    public void setSideA(double sideA) {
-        this.sideA = sideA;
-    }
-
-    public double getSideB() {
-        return sideB;
-    }
-
-    public void setSideB(double sideB) {
-        this.sideB = sideB;
-    }
-
-    public double getSideC() {
-        return sideC;
-    }
-
-    public void setSideC(double sideC) {
-        this.sideC = sideC;
     }
 
     public double getPerimeter() {

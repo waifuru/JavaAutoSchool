@@ -1,29 +1,22 @@
 package com.nixsolutions.task3.figur;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class Square extends Figure {
+    @Setter
     private String name = "Квадрат";
+
+    @Setter
     private Coordinate center = new Coordinate(0, 0);
+
+    @Getter
+    @Setter
     private double side;
 
     @Override
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setCenter(Coordinate center) {
-        this.center = center;
-    }
-
-    public double getSide() {
-        return side;
-    }
-
-    public void setSide(double side) {
-        this.side = side;
     }
 
     @Override
