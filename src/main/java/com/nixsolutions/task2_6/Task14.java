@@ -11,9 +11,8 @@ public class Task14 {
         int n = newScanner.nextInt();
         StringBuilder result = new StringBuilder();
         for (int j = 1; j <= m; j++) {
-            int i = 1;
             result.append("\n");
-            for (i = 1; i <= n; i++) {
+            for (int i = 1; i <= n; i++) {
                 result.append("8");
             }
         }

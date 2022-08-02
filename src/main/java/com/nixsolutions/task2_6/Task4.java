@@ -25,7 +25,7 @@ public class Task4 {
     public static void compareNames(String[] names) {
         if (Objects.equals(names[0], names[1])) {
             System.out.println("Имена идентичны");
-        } else if ((!Objects.equals(names[0], names[1]) && names[0].length() == names[1].length())) {
+        } else if (names[0].length() == names[1].length()) {
             System.out.println("Длины имен равны");
         }
     }

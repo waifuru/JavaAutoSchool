@@ -5,9 +5,10 @@ public class Task16 {
         for (int i = 1; i < 2; i++) {
             System.out.println("8888888888");
         }
-        for (int i = 1; i <= 10; i++) {
-            System.out.println("8");
+        for (int i = 0; i < 10; i++) {
+            System.out.print("8");
         }
+        System.out.println();
     }
 }
 

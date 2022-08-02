@@ -11,7 +11,6 @@ public class Task7 {
         int num = newScanner.nextInt();
         Random random = new Random();
         int secret = random.nextInt(20 + 1);
-        System.out.println(secret);
 
         if (num > secret || num < secret) {
             for (int i = 0; i <= 6; i++) {

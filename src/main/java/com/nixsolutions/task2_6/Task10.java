@@ -7,7 +7,7 @@ public class Task10 {
     public static void main(String[] args) throws IOException {
         Scanner newScanner = new Scanner(System.in);
         System.out.println("Введи строку: ");
-        String str = newScanner.next();
+        String str = newScanner.nextLine();
         System.out.println("Введи число: ");
         int num = newScanner.nextInt();
         int i = 0;
