@@ -15,4 +15,9 @@ public class MainTest {
         Assert.assertEquals(10, Main.subtract(20, 10));
     }
 
+    @Test
+    public void testMultiply() {
+        Assert.assertEquals(20, 2 * 10);
+    }
+
 }
