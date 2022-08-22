@@ -25,4 +25,9 @@ public class MainTest {
         Assert.assertEquals(10, 20 / 2);
     }
 
+    @Test(expected = ArithmeticException.class)
+    public void testDivideByZero() {
+        int result = 20 / 0;
+    }
+
 }
