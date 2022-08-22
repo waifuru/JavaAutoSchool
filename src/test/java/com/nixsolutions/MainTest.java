@@ -20,4 +20,9 @@ public class MainTest {
         Assert.assertEquals(20, 2 * 10);
     }
 
+    @Test
+    public void testDivide() {
+        Assert.assertEquals(10, 20 / 2);
+    }
+
 }
